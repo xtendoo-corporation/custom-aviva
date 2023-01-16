@@ -1,7 +1,7 @@
 <odoo>
     <data>
          <template
-      id="ganafote_document_format.external_layout_bold"
+      id="aviva_document_format.external_layout_bold"
       inherit_id="web.external_layout_bold"
     >
                <xpath expr="//div[hasclass('o_clean_header')]" position="replace">
