@@ -10,9 +10,12 @@
     "license": "AGPL-3",
     "depends": [
         "web",
+        "purchase"
     ],
     "data": [
         "views/layout/external_layout_bold.xml",
+        "views/purchase/purchase_document.xml",
+        "views/invoice/invoice_document.xml",
     ],
     "installable": True,
     "auto_install": False,

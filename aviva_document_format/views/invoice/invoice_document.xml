@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+         <template
+      id="aviva_document_format.report_invoice_document"
+      inherit_id="account.report_invoice_document"
+    >
+               <xpath expr="//div[@id='qrcode']" position="after">
+                   <div id="invoice_account" t-if="o.move_type == 'out_invoice'">
+                       <span>Cuenta Bancaria: ES70 0081 7428 3600 0154 7965</span>
+                   </div>
+
+            </xpath>
+         </template>
+    </data>
+</odoo>

@@ -1,0 +1,49 @@
+<odoo>
+    <data>
+<!--Pedido -->
+          <template
+      id="aviva_document_format.report_purchaseorder_document_stock"
+      inherit_id="purchase_stock.report_purchaseorder_document"
+    >
+              <xpath expr="//t[@t-else='']" position="replace">
+
+            </xpath>
+          </template>
+
+         <template
+      id="aviva_document_format.report_purchaseorder_document"
+      inherit_id="purchase.report_purchaseorder_document"
+    >
+               <xpath expr="//t[@t-if='o.dest_address_id']" position="replace">
+                   <t t-if="o.dest_address_id"/>
+            </xpath>
+
+
+         </template>
+<!--Fin Pedido -->
+
+<!--Presupuesto -->
+
+                  <template
+      id="aviva_document_format.report_purchasequotation_document_stock"
+      inherit_id="purchase_stock.report_purchasequotation_document"
+    >
+              <xpath expr="//t[@t-else='']" position="replace">
+
+            </xpath>
+          </template>
+
+              <template
+      id="aviva_document_format.report_purchasequotation_document"
+      inherit_id="purchase.report_purchasequotation_document"
+    >
+               <xpath expr="//t[@t-if='o.dest_address_id']" position="replace">
+                   <t t-if="o.dest_address_id"/>
+            </xpath>
+
+
+         </template>
+
+<!--Fin Presupuesto -->
+    </data>
+</odoo>
