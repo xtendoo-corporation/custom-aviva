@@ -1,0 +1,142 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* aviva_document_format
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-27 13:54+0000\n"
+"PO-Revision-Date: 2023-01-27 13:54+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: aviva_document_format
+#: model:ir.actions.report,print_report_name:aviva_document_format.sale_delivery
+msgid ""
+"(object.state in ('draft', 'sent') and 'Quotation - %s' % (object.name)) or "
+"'Order - %s' % (object.name)"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.external_layout_bold
+msgid ""
+"<b>21700-La Palma del Condado\n"
+"                                            ( HUELVA )</b>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.external_layout_bold
+msgid "<b>Descarga: C/ Olivo,7</b>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid ""
+"<span groups=\"account.group_show_line_subtotals_tax_excluded\">Amount</span>\n"
+"                                        <span groups=\"account.group_show_line_subtotals_tax_included\">Total Price</span>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_invoice_document
+msgid "<span>Cuenta Bancaria: ES70 0081 7428 3600 0154 7965</span>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<span>Delivery #</span>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<span>Disc.%</span>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<strong class=\"mr16\">Subtotal</strong>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<strong>Expiration:</strong>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<strong>Fiscal Position Remark:</strong>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<strong>Salesperson:</strong>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<strong>Shipping Address:</strong>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<strong>Signature</strong>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "<strong>Your Reference:</strong>"
+msgstr ""
+
+#. module: aviva_document_format
+#: model:ir.actions.report,name:aviva_document_format.sale_delivery
+msgid "Albarán"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Description"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Invoicing Address:"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Invoicing and Shipping Address:"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.external_layout_bold
+msgid "Logo"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Order Date:"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Quantity"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Quotation Date:"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Taxes"
+msgstr ""
+
+#. module: aviva_document_format
+#: model_terms:ir.ui.view,arch_db:aviva_document_format.report_sale_delivery_document
+msgid "Unit Price"
+msgstr ""

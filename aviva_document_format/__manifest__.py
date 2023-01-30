@@ -16,6 +16,7 @@
         "views/layout/external_layout_bold.xml",
         "views/purchase/purchase_document.xml",
         "views/invoice/invoice_document.xml",
+        "views/sale_delivery/sale_order_picking_value.xml",
     ],
     "installable": True,
     "auto_install": False,
