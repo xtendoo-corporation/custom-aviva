@@ -17,6 +17,7 @@
         "views/purchase/purchase_document.xml",
         "views/invoice/invoice_document.xml",
         "views/sale_delivery/sale_order_picking_value.xml",
+        "views/sale/sale_order_document.xml",
     ],
     "installable": True,
     "auto_install": False,

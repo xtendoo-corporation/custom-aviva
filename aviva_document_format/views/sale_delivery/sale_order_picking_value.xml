@@ -54,29 +54,35 @@
                         <div class="oe_structure"/>
 
                         <h2 class="mt-4">
-                            <span>Delivery #</span>
+                            <span>Albarán #</span>
                             <span t-field="doc.name"/>
                         </h2>
 
                         <div class="row mt-4 mb-4" id="informations">
                             <div t-if="doc.client_order_ref" class="col-auto col-3 mw-100 mb-2"
                                  name="informations_reference">
-                                <strong>Your Reference:</strong>
+                                <strong>Su Referencia:</strong>
                                 <p class="m-0" t-field="doc.client_order_ref"/>
                             </div>
                             <div t-if="doc.date_order" class="col-auto col-3 mw-100 mb-2" name="informations_date">
-                                <strong t-if="doc.state in ['draft', 'sent']">Quotation Date:</strong>
-                                <strong t-else="">Order Date:</strong>
+                                <strong t-if="doc.state in ['draft', 'sent']">Fecha del presupuesto:</strong>
+                                <strong t-else="">Fecha del pedido:</strong>
                                 <p class="m-0" t-field="doc.date_order"
                                    t-options="{&quot;widget&quot;: &quot;date&quot;}"/>
                             </div>
+<!--                             <div t-if="doc.commitment_date"-->
+<!--                                 class="col-auto col-3 mw-100 mb-2" name="commitment_date">-->
+<!--                                <strong>Fecha de entrega:</strong>-->
+<!--                                <p class="m-0" t-field="doc.commitment_date"-->
+<!--                                t-options="{&quot;widget&quot;: &quot;date&quot;}"/>-->
+<!--                            </div>-->
                             <div t-if="doc.validity_date and doc.state in ['draft', 'sent']"
                                  class="col-auto col-3 mw-100 mb-2" name="expiration_date">
-                                <strong>Expiration:</strong>
+                                <strong>Expiración:</strong>
                                 <p class="m-0" t-field="doc.validity_date"/>
                             </div>
                             <div t-if="doc.user_id.name" class="col-auto col-3 mw-100 mb-2">
-                                <strong>Salesperson:</strong>
+                                <strong>Comercial:</strong>
                                 <p class="m-0" t-field="doc.user_id"/>
                             </div>
                         </div>

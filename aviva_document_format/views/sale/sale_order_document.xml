@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+          <template
+      id="aviva_document_format.sale_order_document"
+      inherit_id="sale.report_saleorder_document"
+    >
+              <xpath expr="//div[@name='informations_date']" position="after">
+                 <div t-if="doc.commitment_date"
+                                 class="col-auto col-3 mw-100 mb-2" name="commitment_date">
+                                <strong>Fecha de entrega:</strong>
+                                <p class="m-0" t-field="doc.commitment_date"
+                                t-options="{&quot;widget&quot;: &quot;date&quot;}"/>
+                            </div>
+            </xpath>
+          </template>
+    </data>
+</odoo>
