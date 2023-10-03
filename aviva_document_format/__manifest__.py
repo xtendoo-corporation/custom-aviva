@@ -5,12 +5,11 @@
     "description": """Formatos de impresión de AVIVA""",
     "author": "Daniel Dominguez",
     "company": "Xtendoo",
-    "website": "http://xtendoo.es",
+    "website": "https://github.com/xtendoo-corporation/custom-aviva",
     "category": "Extra Tools",
     "license": "AGPL-3",
     "depends": [
-        "web",
-        "purchase"
+        "contract_sale_generation",
     ],
     "data": [
         "views/layout/external_layout_bold.xml",

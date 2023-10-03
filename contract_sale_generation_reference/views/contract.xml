@@ -1,0 +1,9 @@
+<odoo>
+    <record id="contract_contract_form_view_recurring_sale_form" model="ir.ui.view">
+        <field name="name">contract.contract.form.recurring.sale.form</field>
+        <field name="model">contract.contract</field>
+        <field name="inherit_id" ref="contract.contract_contract_form_view" />
+        <field name="arch" type="xml">
+        </field>
+    </record>
+</odoo>
