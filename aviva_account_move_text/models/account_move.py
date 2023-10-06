@@ -17,6 +17,6 @@ class AccountMove(models.Model):
     def _compute_account_expense_text(self):
         self.account_expense_text = ""
         for invoice in self:
-            if invoice.line_ids:
+            if invoice.line_ids and invoice.line_ids[0].account_id:
                 invoice.account_expense_text = invoice.line_ids[0].account_id.code + " - " + invoice.line_ids[0].account_id.name
 
