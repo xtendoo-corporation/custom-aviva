@@ -10,4 +10,34 @@
             </field>
         </field>
     </record>
+    <record id="view_out_credit_note_tree_aviva_account_move_text_tree_inherit" model="ir.ui.view">
+        <field name="name">account.move.tree.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_out_credit_note_tree" />
+        <field name="arch" type="xml">
+            <field name="state" position="after">
+                <field name="account_expense_text" optional="hide"/>
+            </field>
+        </field>
+    </record>
+    <record id="view_in_invoice_bill_tree_aviva_account_move_text_tree_inherit" model="ir.ui.view">
+        <field name="name">account.move.tree.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_in_invoice_bill_tree" />
+        <field name="arch" type="xml">
+            <field name="state" position="after">
+                <field name="account_expense_text" optional="hide"/>
+            </field>
+        </field>
+    </record>
+    <record id="view_in_invoice_refund_tree_aviva_account_move_text_tree_inherit" model="ir.ui.view">
+        <field name="name">account.move.tree.inherit</field>
+        <field name="model">account.move</field>
+        <field name="inherit_id" ref="account.view_in_invoice_refund_tree" />
+        <field name="arch" type="xml">
+            <field name="state" position="after">
+                <field name="account_expense_text" optional="hide"/>
+            </field>
+        </field>
+    </record>
 </odoo>
