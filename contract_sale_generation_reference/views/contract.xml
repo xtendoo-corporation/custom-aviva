@@ -4,6 +4,9 @@
         <field name="model">contract.contract</field>
         <field name="inherit_id" ref="contract.contract_contract_form_view" />
         <field name="arch" type="xml">
+            <xpath expr="//field[@name='recurring_invoicing_type']" position="after">
+                <field name="client_order_ref" />
+            </xpath>
         </field>
     </record>
 </odoo>
